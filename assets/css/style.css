@@ -5,11 +5,15 @@
 
 header {
     grid-area: header;
+    
 }
 
 aside {
     grid-area: aside;
+    height: 100vh;
+    width: 200px;
 }
+
 
 main {
     grid-area: main;
@@ -35,11 +39,12 @@ header {
     background-color: rgba(25, 80, 125);
     color: white;
     padding: 10px;
-
-
-
 }
 
+.header-content{
+    margin-bottom: 20px;
+
+}
 .container-principal {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -53,15 +58,20 @@ img {
     width: 100%;
 }
 
-.menu {}
+.menu {
+    
+}
 
 .list-products {
     margin-left: 20px;
+    margin-bottom: 20px;
 }
 
 li {
+    display: flex;
+    text-align: center;
     margin-left: 20px;
-    list-style: none;
+    
 }
 
 .item-container>p {
