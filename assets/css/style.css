@@ -49,6 +49,11 @@ main {
 
 footer {
     grid-area: footer;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    color: rgb(173, 178, 173);
 }
 
 .container-principal {
@@ -95,3 +100,6 @@ footer {
     border: 1px;
     padding: 0.7rem 0;
 }
+
+
+    
